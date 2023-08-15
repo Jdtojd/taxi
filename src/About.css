@@ -1,0 +1,31 @@
+.about-section {
+    background-color: #f9f9f9;
+    /* padding: 40px;
+    margin-top: 20px; */
+  }
+  
+   .container-about {
+    max-width: 800px;
+    margin: 0 auto;
+  } 
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  img{
+    width:600px;
+    height: 400px;
+  }
+  .text{
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+  }

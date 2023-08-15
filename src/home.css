@@ -1,0 +1,28 @@
+.hero__image-container{
+    width: 500px;
+    /* background-color: red; */
+}
+
+.hero-text{
+    display: block;
+    width: 1000px;
+    
+}
+.hero-text .hero__title{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.hero-text .hero__subtitle{
+    width: 500px;
+   margin: auto;
+    /*background-color: ; */
+}
+.imgcontainer{
+    margin-right:300px
+}
+/* .hero__image{
+    width: 100px;
+    background-color: red ;
+   
+} */
