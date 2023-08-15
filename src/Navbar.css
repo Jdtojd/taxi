@@ -16,7 +16,7 @@
   margin-right: auto;
   font-size: 24px;
 }
-a{
+a {
   color: #101010;
   text-decoration: none;
 }
@@ -46,22 +46,20 @@ a{
   color: #fff;
   text-decoration: none;
 }
-#navbarNav{
-  justify-content: center;
+#navbarNav {
+  justify-content: right;
 }
-.nav-item{
+.nav-item {
   margin: auto;
   padding: 20px;
-
 }
-.nav-item :hover{
+.nav-item :hover {
   color: grey;
-  
 }
 /* Responsive */
 @media (max-width: 768px) {
-  .navbar{
-  position: static;
+  .navbar {
+    position: static;
   }
   .navbar-menu {
     display: none;

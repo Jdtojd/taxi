@@ -1,11 +1,11 @@
-import React, { useEffect, useState, useRef } from "react";
-import "../home.css";
-import { gsap } from "gsap";
-import car1 from "../assets/camry.png";
-import car2 from "../assets/civic.png";
-import car3 from "../assets/merc.png";
-import car4 from "../assets/scorpio.png";
-import car5 from "../assets/corolla.png";
+import React, { useEffect, useState, useRef } from 'react';
+import '../home.css';
+import { gsap } from 'gsap';
+import car1 from '../assets/camry.png';
+import car2 from '../assets/civic.png';
+import car3 from '../assets/merc.png';
+import car4 from '../assets/scorpio.png';
+import car5 from '../assets/corolla.png';
 const images = [car1, car2, car3, car4, car5];
 
 const Home = () => {
@@ -31,10 +31,10 @@ const Home = () => {
 
     // Animation function
     function animateImgContainer() {
-      gsap.from(".imgcontainer", {
-        ease: "power2.out",
+      gsap.from('.imgcontainer', {
+        ease: 'power2.out',
         right: 100,
-        x: 900,
+        x: 700,
         duration: 3,
         repeat: -1,
       });
@@ -47,7 +47,7 @@ const Home = () => {
     return () => {
       clearInterval(intervalId);
       observer.disconnect();
-      gsap.killTweensOf(".imgcontainer");
+      gsap.killTweensOf('.imgcontainer');
     };
   }, []); // Empty dependency array to run only on mount
 
@@ -80,7 +80,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-
-
